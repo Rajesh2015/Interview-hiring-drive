@@ -48,14 +48,5 @@ Please refer to **`SetUp.md`** for detailed setup instructions including:
 
 1. Complete the programming question in `app/programming_question.py`
 2. Create your Spark solution files (e.g., `spark_solution.py` or notebooks)
-3. Ensure your code is well-documented with comments
-4. Test your solutions before submission
-5. Submit all your solution files
 
-## 🎯 Evaluation Criteria
-
-- **Code Quality**: Clean, readable, and well-structured code
-- **Correctness**: Solutions produce accurate results
-- **Efficiency**: Optimal use of Spark transformations and actions
-- **Best Practices**: Proper error handling and documentation
 Notes:You can use scala as well to solve these question.
