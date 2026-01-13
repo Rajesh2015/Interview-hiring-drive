@@ -50,12 +50,36 @@ You should see the following running:
 
 ---
 
-### **Step 3: Submit a Spark Job**
+### **Step 3: Verify Spark Setup**
 
-To run `job.py`(This is something you will create and write your solution) inside the cluster, execute in vs code terminal:
+To verify your Spark setup is working correctly, run the test job:
 
+```bash
+docker exec -it spark-master /opt/spark/bin/spark-submit \
+  --master spark://spark-master:7077 \
+  /opt/spark-data/jobs.py
 ```
-docker exec -it spark-master /opt/spark/bin/spark-submit -com
+
+**Note:** The `jobs.py` file is already provided in the root directory.(You can use this to write youir code or you can create your own)
+
+---
+
+### **Step 4: Submit Your Own Spark Jobs**
+
+When you create your solution file (e.g., `my_solution.py`), place it in the root directory or `app/` folder, then run:
+
+**For files in root directory:**
+```bash
+docker exec -it spark-master /opt/spark/bin/spark-submit \
+  --master spark://spark-master:7077 \
+  /opt/spark-data/my_solution.py
+```
+
+**For files in app/ directory:**
+```bash
+docker exec -it spark-master /opt/spark/bin/spark-submit \
+  --master spark://spark-master:7077 \
+  /opt/spark-app/my_solution.py
 ```
 
 
