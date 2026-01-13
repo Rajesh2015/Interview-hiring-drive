@@ -140,13 +140,6 @@ role
 
 💡 Hint: Use an appropriate join strategy.
 
-🔹 Question 7: Top Performer per Course (Window Function)
-
-For each course:
-
-- Identify the top-scoring learner
-- If multiple learners have the same score, select the earliest attempt
-
 
 ## Notes:
 Write clean, readable Spark code
