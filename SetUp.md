@@ -1,5 +1,5 @@
 # Interview-hiring-drive
-This guide walks you through setting up a fully functional **Spark Cluster** with **Spark Master**, **Spark Worker**, and **Jupyter Notebook** using Docker.
+This will help you setting up a fully functional **Spark Cluster** with **Spark Master**, **Spark Worker**, and **Jupyter Notebook** using Docker.
 
 ---
 
@@ -52,7 +52,7 @@ You should see the following running:
 
 ### **Step 3: Submit a Spark Job**
 
-To run `job.py` inside the cluster, execute in vs code terminal:
+To run `job.py`(This is something you will create and write your solution) inside the cluster, execute in vs code terminal:
 
 ```
 docker exec -it spark-master /opt/spark/bin/spark-submit -com
